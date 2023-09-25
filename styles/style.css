@@ -7,8 +7,30 @@ p {
   color: white;
   margin: 5px;
   padding: 10px;
+  font-size: 50px;
 }
 
 ul {
   border: 2px solid blue;
+}
+
+nav ul {
+  border: 2px solid blue;
+  margin: 20px;
+}
+nav ul li {
+  color: purple;
+}
+nav ul li a {
+  text-decoration: line-through;
+}
+
+button {
+  border: 1px solid red;
+  background-color: bisque;
+  border-radius: 10%;
+}
+
+button:hover {
+  background-color: aqua;
 }/*# sourceMappingURL=style.css.map */

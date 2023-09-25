@@ -1,3 +1,4 @@
+@use 'variable';
 $primary-color: blue;
 h1{
     color: $primary-color;
@@ -7,7 +8,28 @@ p{
     color: white;
     margin: 5px;
     padding: 10px;
+    font-size: variable.$large-font;
 }
 ul{
     border: 2px solid $primary-color;
+}
+nav{
+    ul{
+        border: 2px solid $primary-color;
+        margin: 20px;
+        li{
+            color: purple;
+            a{
+                text-decoration: line-through;
+            }
+        }
+    }
+}
+button{
+    border: 1px solid red;
+    background-color: bisque;
+    border-radius: 10%;
+}
+button:hover{
+    background-color: aqua;
 }
